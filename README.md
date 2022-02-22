@@ -9,9 +9,13 @@ Horretarako erabili Anaconda edo Virtualenv. ingurune virtuala ezarritakoa egin 
 Aurrekoak egiten ez badu liburutegiak eskuz instalatu:
 
 > pip install tensorflow==2.5
+
 > pip install opencv-contrib-python
+
 > pip install mediapipe
+
 > pip install pandas
+
 > pip install numpy
 
 Behin hori eginda sartu sure ingurunean eta executatu honakoa:
