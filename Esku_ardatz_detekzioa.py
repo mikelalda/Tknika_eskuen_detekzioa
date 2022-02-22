@@ -1,19 +1,17 @@
-#!/home/Documentos/objetuen_detekzioa/tf_gpu/bin/python3
-
 import os
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '3'
 import tensorflow as tf
 import tensorflow.keras as keras
 from tensorflow.keras.utils import to_categorical 
 import cv2
-
+import mediapipe as mp
 import pandas as pd
 import numpy as np
 from os.path import exists
 physical_devices = tf.config.experimental.list_physical_devices('GPU')
 if len(physical_devices) > 0:
     tf.config.experimental.set_memory_growth(physical_devices[0], True)
-import mediapipe as mp
+
 
 mp_drawing = mp.solutions.drawing_utils
 mp_drawing_styles = mp.solutions.drawing_styles
