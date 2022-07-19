@@ -8,7 +8,7 @@ Horretarako erabili Anaconda edo Virtualenv. ingurune virtuala ezarritakoa egin 
 
 Aurrekoak egiten ez badu liburutegiak eskuz instalatu:
 
-> pip install tensorflow>=2.5
+> pip install tensorflow
 
 > pip install opencv-contrib-python
 
